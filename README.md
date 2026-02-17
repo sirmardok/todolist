@@ -33,8 +33,9 @@ Aplicación para gestión de tareas con las operaciones básicas de listar, crea
 1. Se debe instalar el servidor de bases de datos MySql como servicio de windows en localhost:3306
 2. Crear la base de datos **todolistdb** y ejecutar el script de creación de tablas **todolist_tables_creation.sql**
 3. Descargar el proyecto Java carpeta **todolist** y compilar con maven: **> mvn clean install** genera el JAR ./target/todolist-0.0.1-SNAPSHOT.jar Ejecutar como aplicacion java en localhost:8080
-4. Descargar el proyecto React: **react-todolist** y ejecutar el servidor: **> npm run dev** debe tener instalado Node.js, React, Bootstrap despliega en: localhost:5173
-5. Acceder a la aplicación en el siguiente URL: **http://localhost:5173/tasks**
+4. Se puede realizar pruebas desde postman con importando la colección: **./Scripts/todolist.postman_collection.json**
+5. Descargar el proyecto React: **react-todolist** y ejecutar el servidor: **> npm run dev** debe tener instalado Node.js, React, Bootstrap despliega en: localhost:5173
+6. Acceder a la aplicación en el siguiente URL: **http://localhost:5173/tasks**
 
 ## Ejecución Aplicación
 ### Pantalla principal listado de tareas:
